@@ -38,7 +38,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run:  |
           VERSION="prod-\$(date -u +'%Y%m%d%H%M%SZ')"
-          echo "release_tag=$VERSION" >> \$GITHUB_ENV
+          echo "release_tag=\$VERSION" >> \$GITHUB_ENV
 
       - name: Create tag
         if: github.ref == 'refs/heads/main'
