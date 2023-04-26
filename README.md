@@ -1,21 +1,11 @@
-[![Template ci](https://github.com/alessandrocandolini/latex.classicbook.g8/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/latex.classicbook.g8/actions/workflows/ci.yml)
+[![Template ci](https://github.com/alessandrocandolini/latex.handout.g8/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/latex.handout.g8/actions/workflows/ci.yml)
 
-# latex.classicbook.g8
+# latex.handout.g8
 
-Unofficial [Giter8](https://www.foundweekends.org/giter8/) template for personal book-like LaTeX notes.
+Opinionated giter8 template for personal short LaTeX notes with github actions pipeline. 
 
-For those unfamiliar with Giter8, it's a template engine written in the Scala programming language, integrated in sbt (the Scala build tool) and powered by [StringTemplate](https://www.stringtemplate.org/). 
+[Giter8](https://www.foundweekends.org/giter8/) is a template engine written in the [Scala programming language](https://www.scala-lang.org/), integrated in the Scala build tool ([sbt](https://www.scala-sbt.org/)) and powered by [StringTemplate](https://www.stringtemplate.org/). 
 There are plenty of templating tools available (eg, cookiecutter or jinjia in python, etc) but I find g8 particularly handy. You don't need familiarity with Scala to use or even contribute to the template. 
-
-The template relies on an opinionated setup, in connection with a number of other LaTeX packages that manage
-1. finer typography (eg, microtype, fnpct, impnattypo, embrac, etc)
-2. bibliography (biblatex, biber support, etc) 
-3. math (eg, amssym, breqn, etc) 
-4. and more
-
-Some of the choices can be considered controversial (eg, `breqn`, which rarely produces optimal line breaking in equations, however sometimes I prefer to just use it to focus on the equation itself rather than about the layout of the equation; separating the "what" from the "how it's rendered" should be one of the main selling points of using LaTeX). 
-
-This template is work-in-progress and constantly evolving.
 
 ## How to use it 
 
