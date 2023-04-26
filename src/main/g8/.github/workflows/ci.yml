@@ -44,7 +44,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: rickstaa/action-create-tag@v1
         with:
-          tag: ${{ env.release_tag }}
+          tag: \${{ env.release_tag }}
 
       - name: Create Github Release
         if: github.ref == 'refs/heads/main'
