@@ -7,6 +7,10 @@ on:
     branches: [ main ]
   workflow_dispatch: # enable manual execution
 
+concurrency:
+  group: \${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
